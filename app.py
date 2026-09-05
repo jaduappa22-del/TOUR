@@ -1,5 +1,10 @@
 from datetime import datetime
 import json
+import urllib.parse  # 👈 이 부분이 빠져 있었습니다!
+import pandas as pd
+import streamlit as st
+from datetime import datetime
+import json
 import pandas as pd
 import streamlit as st
 
